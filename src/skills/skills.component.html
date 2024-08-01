@@ -1,0 +1,40 @@
+<div class="bg-black bg-opacity-75 text-light w-100" style="height: 100vh">
+  <div id="top-section">
+    <h1 class="display-1 text-center p-5 pb-3">Skills</h1>
+    <p class="w-75 mx-auto h5 fw-light text-center">
+      As an experienced Angular developer, I possess a comprehensive skill set
+      that spans across front-end development, user interface design, and
+      performance optimization. My expertise includes a deep understanding of
+      Angular's core features, efficient state management, and seamless
+      integration with back-end services. Below, you will find a detailed
+      overview of my technical proficiencies and tools that I utilize to deliver
+      high-quality, scalable web applications.
+    </p>
+  </div>
+  <div
+    class="d-flex align-items-start justify-content-center m-5 gap-5"
+    id="bottom-section"
+  >
+    <div class="d-inline-block me-5" id="bottom-left">
+      <h2 class="text-center">Spoken Languages</h2>
+      <hr />
+      <ul class="mt-4 gap-3 d-flex flex-column">
+        <li><h4>Arabic: mother tongue</h4></li>
+        <li><h4>English: Professional</h4></li>
+        <li><h4>German: Basic Knowledge</h4></li>
+        <li><h4>Italian: Basic Knowledge</h4></li>
+      </ul>
+    </div>
+    <div class="vr"></div>
+    <div class="d-inline-block ms-5" id="bottom-right">
+      <h2 class="px-3">Technical Skills</h2>
+      <hr />
+      <div class="d-flex flex-column gap-4" id="skills">
+        <app-skill-bar title="JavaScript" [width]="70"></app-skill-bar>
+        <app-skill-bar title="TypeScript" [width]="80"></app-skill-bar>
+        <app-skill-bar title="HTML" [width]="90"></app-skill-bar>
+        <app-skill-bar title="CSS" [width]="83"></app-skill-bar>
+      </div>
+    </div>
+  </div>
+</div>
